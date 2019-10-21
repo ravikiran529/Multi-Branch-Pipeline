@@ -4,7 +4,7 @@ pipeline {
        stage('Testing multi-branch pipeline') {
             steps {
                echo "This is from ${BRANCH_NAME}..."
-               ech "Running on ${NODE_NAME}."
+               echo "Running on ${NODE_NAME}."
             }
             post {
                 failure {
