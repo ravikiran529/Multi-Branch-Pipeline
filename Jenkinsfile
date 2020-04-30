@@ -5,6 +5,7 @@ pipeline {
             steps {
                echo "This is from ${BRANCH_NAME}..."
                echo "Running on ${NODE_NAME}."
+               echo "New change in dev"
             }
             post {
                 failure {
